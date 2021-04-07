@@ -1,6 +1,6 @@
 export default function rubberBand() {
     return { 
-        keyframes: [ {
+        keyframes: [{
             scale3d: [ '1,1,1' ]
         }, {
             duration: 300,
