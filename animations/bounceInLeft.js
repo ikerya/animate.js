@@ -4,27 +4,27 @@ export default function bounceInLeft() {
     return { 
         timing: easeOutQuad, 
         keyframes: [ {
-            duration: 599,
+            duration: 400,
             opacity: [ 0 ],
-            translateX: [ -2000 ],
+            translateX: [ -1000 ],
             translateY: [ 0 ],
             translateZ: [ 0 ],
             scaleX: [ 3 ]
         }, {
             duration: 150,
             opacity: [ 0, 1 ],
-            translateX: [ -2000, 15 ],
+            translateX: [ -1000, 40 ],
             scaleX: [ 3, 1 ]
         }, {
             duration: 150,
-            translateX: [ 15, -7 ],
+            translateX: [ 40, -30 ],
             scaleX: [ 1, 0.98 ]
         }, {
-            duration: 100,
-            translateX: [ -7, 3.5 ]
+            duration: 150,
+            translateX: [ -30, 15 ]
         }, {
-            duration: 1,
-            translateX: [ 3.5, 0 ]
+            duration: 150,
+            translateX: [ 15, 0 ]
         }] 
     };
 }

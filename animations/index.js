@@ -10,6 +10,8 @@ import zoomIn from './zoomIn';
 import zoomInLeft from './zoomInLeft';
 import zoomInRight from './zoomInRight';
 import zoomOutRight from './zoomOutRight';
+import pulse from './pulse';
+import rubberBand from './rubberBand';
 
 export default {
     flipInX,
@@ -23,5 +25,7 @@ export default {
     zoomIn,
     zoomInLeft,
     zoomInRight,
-    zoomOutRight
+    zoomOutRight,
+    pulse,
+    rubberBand
 }

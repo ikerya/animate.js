@@ -8,13 +8,13 @@ export default function bounceOutRight() {
             translate3d: [ '0,0,0' ],
             scaleX: [ .9 ]
         }, {
-            duration: 210,
+            duration: 200,
             translate3d: [ '0,0,0', '-40,0,0' ]
         }, {
-            duration: 210,
+            duration: 200,
             translate3d: [ '-40,0,0', '30,0,0' ]
         }, {
-            duration: 180,
+            duration: 200,
             translate3d: [ '30,0,0', '-15,0,0' ]
         }, {
             duration: 400,
