@@ -1,6 +1,6 @@
 {
   "name": "@ikerya/animate.js",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Animate.css using JS's requestAnimationFrame",
   "main": "./lib/AnimateJS.js",
   "directories": {
