@@ -1,0 +1,42 @@
+{
+  "name": "@ikerya/animate.js",
+  "version": "1.0.5",
+  "description": "Animate.css using JS's requestAnimationFrame",
+  "main": "./lib/AnimateJS.js",
+  "browser": "./dist/bundle.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "clear && npx webpack --env=mode=development",
+    "build": "clear && npx webpack --env=mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikerya/animate.js.git"
+  },
+  "keywords": [
+    "animate",
+    "css",
+    "js",
+    "animation",
+    "requestAnimationFrame"
+  ],
+  "author": "ikerya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikerya/animate.js/issues"
+  },
+  "homepage": "https://github.com/ikerya/animate.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-livereload-plugin": "^3.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

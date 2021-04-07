@@ -1,0 +1,5 @@
+.vscode
+.gitignore
+.gitattributes
+webpack.config.js
+src
