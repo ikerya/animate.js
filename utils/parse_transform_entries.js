@@ -13,6 +13,10 @@ export default function parseTransformEntries(transform) {
         const newArgs = args.map((arg) => {
             const dimension = getStylePropDimension(prop);
 
+            if (Number.isNaN(+arg)) {
+                return arg;
+            }
+
             if (!dimension) {
                 return +arg;
             }
