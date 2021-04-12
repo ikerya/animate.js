@@ -6,6 +6,16 @@ export default function getStylePropDimension(prop) {
         case 'translateY':
         case 'translateZ':
         case 'perspective':
+        case 'margin-left':
+        case 'margin-right':
+        case 'margin-top':
+        case 'margin-bottom':
+        case 'padding-left':
+        case 'padding-right':
+        case 'padding-top':
+        case 'padding-bottom':
+        case 'width':
+        case 'height':
             return 'px';
         case 'opacity':
             return '';
