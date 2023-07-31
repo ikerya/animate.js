@@ -16,6 +16,10 @@ export default function getStylePropDimension(prop) {
         case 'padding-bottom':
         case 'width':
         case 'height':
+        case 'top':
+        case 'bottom':
+        case 'left':
+        case 'right':
             return 'px';
         case 'opacity':
             return '';
