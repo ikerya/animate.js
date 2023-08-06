@@ -15,7 +15,9 @@ export default function getStylePropDimension(prop) {
         case 'padding-top':
         case 'padding-bottom':
         case 'width':
+        case 'min-width':
         case 'height':
+        case 'min-height':
         case 'top':
         case 'bottom':
         case 'left':
